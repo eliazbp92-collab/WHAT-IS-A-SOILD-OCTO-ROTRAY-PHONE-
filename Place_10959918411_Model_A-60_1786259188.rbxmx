@@ -1,0 +1,398 @@
+<!-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw --><roblox version="4"><Meta name="ExplicitAutoJoints">true</Meta><Item class="Model" referent="0"><Properties><CoordinateFrame name="ModelMeshCFrame"><X>149.1999969482422</X><Y>0</Y><Z>171.60000610351562</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Vector3 name="ModelMeshSize"><X>0</X><Y>0</Y><Z>0</Z></Vector3><bool name="NeedsPivotMigration">false</bool><float name="ScaleFactor">1</float><OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>-1</X><Y>2.5</Y><Z>-12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CFrame></OptionalCoordinateFrame><BinaryString name="AttributesSerialize">BQAAAAUAAABEZWxheQYAAAAAAADgPwcAAABFbmFibGVkAwEGAAAAUm90YXRlBgAAAAAAAChACwAAAFNMX1VuaXF1ZUlkBgAAAAAAAAAABQAAAFNoYWtlBmZmZmZmZuY/</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[A-60]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="Part" referent="1"><Properties><token name="shape">1</token><token name="formFactorRaw">1</token><bool name="Anchored">true</bool><token name="BottomSurface">0</token><CoordinateFrame name="CFrame"><X>-1</X><Y>2.5</Y><Z>-12</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><bool name="CanCollide">false</bool><bool name="CanQuery">false</bool><bool name="CanTouch">false</bool><Color3uint8 name="Color3uint8">4288914085</Color3uint8><PhysicalProperties name="CustomPhysicalProperties"><CustomPhysics>true</CustomPhysics><Density>0</Density><Friction>0</Friction><Elasticity>0</Elasticity><FrictionWeight>0</FrictionWeight><ElasticityWeight>0</ElasticityWeight><AcousticAbsorption>0</AcousticAbsorption></PhysicalProperties><string name="MaterialVariantSerialized"></string><token name="TopSurface">0</token><float name="Transparency">1</float><Vector3 name="size"><X>5</X><Y>5</Y><Z>5</Z></Vector3><BinaryString name="AttributesSerialize">AwAAAAsAAABTTF9BbmNob3JlZAMBDQAAAFNMX0NhbkNvbGxpZGUDAAsAAABTTF9VbmlxdWVJZAYAAAAAAADwPw==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RushNew]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="BillboardGui" referent="2"><Properties><bool name="Active">true</bool><float name="Brightness">4</float><bool name="ClipsDescendants">true</bool><Vector3 name="ExtentsOffsetWorldSpace"><X>-0.0020036145579069853</X><Y>0.008493860252201557</Y><Z>-0.009600567631423473</Z></Vector3><UDim2 name="Size"><XS>12</XS><XO>0</XO><YS>12</YS><YO>0</YO></UDim2><Vector3 name="StudsOffsetWorldSpace"><X>0</X><Y>2.700000047683716</Y><Z>0</Z></Vector3><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAAQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Entity]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ImageLabel" referent="3"><Properties><Content name="Image"><url><![CDATA[rbxassetid://15053048364]]></url></Content><Color3 name="ImageColor3"><R>1</R><G>0.30980393290519714</G><B>0.30980393290519714</B></Color3><bool name="Active">true</bool><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><float name="BackgroundTransparency">1</float><float name="Rotation">1</float><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAIQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Image1]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Script" referent="4"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="5"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[local image1 = "rbxassetid://75712690732826"
+local image2 = "rbxassetid://136515879002087"
+local image3 = "rbxassetid://117853822543313"
+local image4 = "rbxassetid://127438961476132"
+local image5 = "rbxassetid://98034634977361"
+--if you want you can replace the image ids with your own
+--you can also add more if you want
+ 
+while true do
+    wait(0.5)
+    
+    local i = math.random(1,5)
+    if i == 1 then
+        script.Parent.Image1.Image = image1
+    end
+    
+    if i == 2 then
+        script.Parent.Image1.Image = image2
+    end
+    
+    if i == 3 then
+        script.Parent.Image1.Image = image3
+    end
+    
+    if i == 4 then
+        script.Parent.Image1.Image = image4
+    end
+    
+    if i == 5 then
+        script.Parent.Image1.Image = image5
+    end
+end
+]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="6"><Properties><Ref name="Value">5</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="7"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item></Item><Item class="Attachment" referent="8"><Properties><CoordinateFrame name="CFrame"><X>-4.326255798339844</X><Y>1.2672538757324219</Y><Z>4.099910736083984</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAUQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Trail1]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Attachment" referent="9"><Properties><CoordinateFrame name="CFrame"><X>4.216423034667969</X><Y>1.2672538757324219</Y><Z>3.8042869567871094</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAYQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Trail2]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Trail" referent="10"><Properties><Ref name="Attachment0">8</Ref><Ref name="Attachment1">9</Ref><ColorSequence name="Color">0 1 0.3450980484485626 0.3450980484485626 0 1 1 0.3450980484485626 0.3450980484485626 0 </ColorSequence><bool name="FaceCamera">true</bool><float name="Lifetime">1</float><float name="LightEmission">1</float><Content name="Texture"><url><![CDATA[rbxassetid://6091341618]]></url></Content><float name="TextureLength">70</float><token name="TextureMode">2</token><NumberSequence name="Transparency">0 0 0 0.5241379737854004 0.4437499940395355 0 1 1 0 </NumberSequence><NumberSequence name="WidthScale">0 1 0 0.13947699964046478 1 0 0.49813199043273926 0.39375001192092896 0 1 0 0 </NumberSequence><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAcQA==</BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="Script" referent="11"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Change]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="12"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[while wait() do
+	script.Parent.Texture = "rbxassetid://6091329339"
+	wait(0.01)
+	script.Parent.Texture = "rbxassetid://6091341618"
+	wait(0.01)
+	script.Parent.Texture = "rbxassetid://6091474388"
+	wait(0.01)
+end]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="13"><Properties><Ref name="Value">12</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="14"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item></Item><Item class="PointLight" referent="15"><Properties><float name="Range">60</float><float name="Brightness">32.13999938964844</float><Color3 name="Color"><R>1</R><G>0</G><B>0</B></Color3><bool name="Shadows">true</bool><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAiQA==</BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Sound" referent="16"><Properties><bool name="Looped">true</bool><float name="PlaybackSpeed">0.20000000298023224</float><bool name="Playing">true</bool><float name="RollOffMaxDistance">150000</float><token name="RollOffMode">3</token><Content name="SoundId"><url><![CDATA[rbxassetid://285342938]]></url></Content><double name="TimePosition">2.222</double><float name="Volume">1</float><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAkQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[PlaySound]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="DistortionSoundEffect" referent="17"><Properties><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAmQA==</BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="EqualizerSoundEffect" referent="18"><Properties><float name="HighGain">-7.099999904632568</float><float name="LowGain">10</float><float name="MidGain">-7</float><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAoQA==</BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item><Item class="Sound" referent="19"><Properties><float name="RollOffMaxDistance">175000</float><token name="RollOffMode">3</token><Content name="SoundId"><url><![CDATA[rbxassetid://9043367677]]></url></Content><float name="Volume">4</float><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAqQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Spawn]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="DistortionSoundEffect" referent="20"><Properties><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAsQA==</BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item><Item class="BillboardGui" referent="21"><Properties><bool name="Active">true</bool><float name="Brightness">4</float><bool name="ClipsDescendants">true</bool><Vector3 name="ExtentsOffsetWorldSpace"><X>-0.0020036145579069853</X><Y>0.008493860252201557</Y><Z>-0.009600567631423473</Z></Vector3><UDim2 name="Size"><XS>12</XS><XO>0</XO><YS>12</YS><YO>0</YO></UDim2><Vector3 name="StudsOffsetWorldSpace"><X>0</X><Y>2.700000047683716</Y><Z>0</Z></Vector3><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAuQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Entity2]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ImageLabel" referent="22"><Properties><Content name="Image"><url><![CDATA[rbxassetid://1972219024]]></url></Content><Color3 name="ImageColor3"><R>1</R><G>0.27843138575553894</G><B>0.27843138575553894</B></Color3><bool name="Active">true</bool><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><float name="BackgroundTransparency">1</float><float name="Rotation">1</float><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAwQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Image1]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Script" referent="23"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="24"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[local image1 = "rbxassetid://75712690732826"
+local image2 = "rbxassetid://136515879002087"
+local image3 = "rbxassetid://117853822543313"
+local image4 = "rbxassetid://127438961476132"
+local image5 = "rbxassetid://98034634977361"
+--if you want you can replace the image ids with your own
+--you can also add more if you want
+ 
+while true do
+    wait(0.5)
+    
+    local i = math.random(1,5)
+    if i == 1 then
+        script.Parent.Image1.Image = image1
+    end
+    
+    if i == 2 then
+        script.Parent.Image1.Image = image2
+    end
+    
+    if i == 3 then
+        script.Parent.Image1.Image = image3
+    end
+    
+    if i == 4 then
+        script.Parent.Image1.Image = image4
+    end
+    
+    if i == 5 then
+        script.Parent.Image1.Image = image5
+    end
+end
+]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="25"><Properties><Ref name="Value">24</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="26"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item></Item></Item><Item class="NumberValue" referent="27"><Properties><double name="Value">900</double><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAAyQA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Speed]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Script" referent="28"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Kill]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="29"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[
+
+function findNearestTorso(pos)
+	local list = workspace:GetChildren()
+	local torso = nil
+	local dist = 55
+	local temp = nil
+	local human = nil
+	local temp2 = nil
+	for x = 1, #list do
+		temp2 = list[x]
+		if (temp2.className == "Model") and (temp2 ~= script.Parent) then
+			temp = temp2:findFirstChild("HumanoidRootPart")
+			human = temp2:findFirstChild("Humanoid")
+			local isImmune = temp2:GetAttribute("immune")
+
+			if (temp ~= nil) and (human ~= nil) and (human.Health > 0) and not temp2:FindFirstChild("Hidden") and not isImmune then
+				if (temp.Position - pos).magnitude < dist and not temp2:FindFirstChild("Hidden") then
+					torso = temp
+					dist = (temp.Position - pos).magnitude
+				end
+			end
+		end
+	end
+	return torso
+end
+
+
+
+local can = true
+while true do
+	wait(0.05)
+	local target = findNearestTorso(script.Parent.RushNew.Position)
+	if target ~= nil and can == true then
+		can = false
+		target.Parent.Humanoid.Health -= 100
+		local plr = game.Players:GetPlayerFromCharacter(target.Parent)
+		plr.PlayerGui.Jumpscares.A1Jumpscare.Visible = true
+		plr.PlayerGui.Jumpscares.A1Jumpscare.LocalScript.Enabled = true
+		wait()
+		can = true
+	end
+
+end
+]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="30"><Properties><Ref name="Value">29</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="31"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item><Item class="Script" referent="32"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Moving]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="33"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[local RunService = game:GetService("RunService")
+local val = game.ReplicatedStorage.Values
+local aval = val.LastDoor
+local npc = script.Parent
+npc.RushNew.CFrame = workspace.Things.BackB.CFrame
+npc.RushNew.Spawn:Play()
+
+
+local function move(targetPart, respectAvalChanges)
+	local promise = Instance.new("BindableEvent")
+	local shouldRedirect = respectAvalChanges or false
+
+	local function getTargetPosition()
+		return targetPart.Position
+	end
+
+	local connection
+	connection = RunService.Heartbeat:Connect(function(deltaTime)
+		local npcSpeed = npc.Speed.Value
+		local targetPosition = getTargetPosition()
+		local currentPosition = npc.RushNew.Position
+		local direction = (targetPosition - currentPosition).Unit
+		local distanceToMove = npcSpeed * deltaTime
+		local newPosition = currentPosition + direction * distanceToMove
+		npc.RushNew.CFrame = CFrame.new(newPosition)
+
+		local distanceToTarget = (newPosition - targetPosition).Magnitude
+		if distanceToTarget < 6 then
+			connection:Disconnect()
+			promise:Fire()
+		end
+	end)
+
+	local avalChangedConnection
+	if shouldRedirect then
+		avalChangedConnection = aval.Changed:Connect(function()
+			targetPart = aval.Value.Parent.middle
+		end)
+	end
+
+	promise.Event:Wait()
+	if avalChangedConnection then
+		avalChangedConnection:Disconnect() 
+	end
+end
+
+local w = workspace.Things
+-- goes to the middle of the room, waits 2 seconds then gets destroyed
+move(aval.Value.Parent.middle, true)
+wait(2)
+npc:Destroy()]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="34"><Properties><Ref name="Value">33</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="35"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item><Item class="Script" referent="36"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FaceShake]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="37"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[-- variables
+
+local rn = Random.new()
+
+while script.Parent:GetAttribute("Enabled") == true do
+	local posintensity = script.Shake.Value
+	local rotateintensity = script.Rotate.Value
+	local delaytime = script.Parent:GetAttribute("Delay")
+	task.wait(delaytime)
+	script.Parent.RushNew:WaitForChild("Entity").StudsOffset = Vector3.new(rn:NextNumber(-posintensity, posintensity), rn:NextNumber(-posintensity, posintensity), 0)
+	script.Parent.RushNew:WaitForChild("Entity").Image1.Rotation = rn:NextNumber(-rotateintensity, rotateintensity)
+end]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="38"><Properties><Ref name="Value">37</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="39"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item><Item class="NumberValue" referent="40"><Properties><double name="Value">0.8</double><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAA2QA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Shake]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="NumberValue" referent="41"><Properties><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAA3QA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Rotate]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item><Item class="Script" referent="42"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="43"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[script.Parent.ChildRemoved:Connect(function(v)
+    if v.Name == "RushNew" then
+        script.Parent:Destroy()
+    end
+end)
+]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="44"><Properties><Ref name="Value">43</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="45"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item><Item class="NumberValue" referent="46"><Properties><double name="Value">1</double><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAA5QA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[shake]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="Script" referent="47"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FaceShake2]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="TextBox" referent="48"><Properties><bool name="ClearTextOnFocus">false</bool><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/Inconsolata.json]]></url></Family><Weight>400</Weight><Style>Normal</Style></Font><bool name="MultiLine">true</bool><Color3 name="PlaceholderColor3"><R>0.699999988079071</R><G>0.699999988079071</G><B>0.699999988079071</B></Color3><bool name="RichText">true</bool><bool name="ShowNativeInput">false</bool><string name="Text"><![CDATA[-- variables
+
+local rn = Random.new()
+
+while script.Parent:GetAttribute("Enabled") == true do
+	local posintensity = script.Shake.Value
+	local rotateintensity = script.Rotate.Value
+	local delaytime = script.Parent:GetAttribute("Delay")
+	task.wait(delaytime)
+	script.Parent.RushNew:WaitForChild("Entity2").StudsOffset = Vector3.new(rn:NextNumber(-posintensity, posintensity), rn:NextNumber(-posintensity, posintensity), 0)
+	script.Parent.RushNew:WaitForChild("Entity2").Image1.Rotation = rn:NextNumber(-rotateintensity, rotateintensity)
+end]]></string><Color3 name="TextColor3"><R>0</R><G>0</G><B>0</B></Color3><float name="TextSize">14</float><token name="TextXAlignment">0</token><token name="TextYAlignment">0</token><token name="AutomaticSize">3</token><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><Color3 name="BorderColor3"><R>1</R><G>0.6666666865348816</G><B>0</B></Color3><token name="BorderMode">2</token><int name="BorderSizePixel">0</int><int name="LayoutOrder">2</int><UDim2 name="Position"><XS>0</XS><XO>52</XO><YS>0</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><int name="ZIndex">4</int><bool name="AutoLocalize">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_CodeTextBox]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties><Item class="ObjectValue" referent="49"><Properties><Ref name="Value">48</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SaveChangesTo]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="LocalScript" referent="50"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+if _G.DynamicThumb then
+	return
+end
+
+local StudioLiteFolder = game:GetService("ReplicatedStorage"):WaitForChild("StudioLiteFolder")
+local ColorizeSourceModule = require(StudioLiteFolder:WaitForChild("ColorizeSourceModule"))
+
+script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+script.Parent.Focused:Connect(function() --[[ Line: 10 ]]
+	script.Parent.Text = script.Parent.ContentText
+	script.Parent.CursorPosition = 0
+end)
+script.Parent.FocusLost:Connect(function() --[[ Line: 16 | Upvalues: ColorizeSourceModule (copy) ]]
+	task.wait()
+	script.Parent:WaitForChild("SaveChangesTo").Value.Text = script.Parent.ContentText
+	script.Parent.Text = ColorizeSourceModule:ColorizeSource(script.Parent.ContentText, false, true)
+end)]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SL_ColorizeAndEditLocal]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item><Item class="NumberValue" referent="51"><Properties><double name="Value">0.8</double><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAA7QA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Shake]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item><Item class="NumberValue" referent="52"><Properties><BinaryString name="AttributesSerialize">AQAAAAsAAABTTF9VbmlxdWVJZAYAAAAAAAA8QA==</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Rotate]]></string><SharedString name="Tags">MTAwMDAwMDAwMDAwMDAwMA==</SharedString></Properties></Item></Item></Item><Item class="Script" referent="53"><Properties><string name="Name"><![CDATA[README]]></string><ProtectedString name="Source"><![CDATA[--[[
+		Thank you for using UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw.
+
+		If you didn't save in Binary (rbxl) - it's recommended to save the game right away to take advantage of the binary format & to preserve values of certain properties if you used IgnoreDefaultProperties setting (as they might change in the future).
+		You can do that by going to FILE -> Save to File As -> Make sure File Name ends with .rbxl -> Save
+
+		ServerStorage, ServerScriptService and Server Scripts are IMPOSSIBLE to save because of FilteringEnabled.
+
+		If your player cannot spawn into the game, please move the scripts in StarterPlayer somewhere else or delete them. Then run `game:GetService("Players").CharacterAutoLoads = true`.
+		And use "Play Here" to start game instead of "Play" to spawn your Character where your Camera currently is.
+
+		If the chat system does not work, please use the explorer and delete everything inside the TextChatService/Chat service(s). 
+		Or run `game:GetService("Chat"):ClearAllChildren() game:GetService("TextChatService"):ClearAllChildren()`
+				
+		If Union and MeshPart collisions don't work, run the script below in the Studio Command Bar:
+				
+				
+		local C = game:GetService("CoreGui")
+		local D = Enum.CollisionFidelity.Default
+				
+		for _, v in game:GetDescendants() do
+			if v:IsA("TriangleMeshPart") and not v:IsDescendantOf(C) then
+				v.CollisionFidelity = D
+			end
+		end
+		print("Done")
+				
+		If you can't move the Camera, run this script in the Studio Command Bar:
+			
+		workspace.CurrentCamera.CameraType = Enum.CameraType.Fixed
+		
+		Or Destroy the Camera.
+
+		This file was generated with the following settings:
+		{"SavePlayerCharacters":true,"SaveBytecode":false,"Callback":false,"ShowStatus":true,"IgnoreDefaultPlayerScripts":true,"NilInstancesFixes":{"BaseWrap":null,"Animator":null,"Attachment":null,"PackageLink":null,"AdPortal":null},"IgnoreList":["CoreGui","CorePackages"],"__DEBUG_MODE":false,"KillAllScripts":true,"DecompileJobless":false,"Decompile":true,"IgnoreNotArchivable":true,"Object":null,"DecompileIgnore":["TextChatService",null,null,null],"IgnoreSpecialProperties":true,"BoostFPS":true,"IsModel":false,"NilInstances":false,"ExtraInstances":[],"ReadMe":true,"OptionsAliasesInverse":{"noscripts":"Decompile","RemovePlayers":"IsolatePlayers","RemovePlayerCharacters":"SavePlayerCharacters"},"OptionsAliases":{"DecompileScripts":"Decompile","timeout":"DecompileTimeout","StatusText":"ShowStatus","SavePlayers":"IsolatePlayers","FileName":"FilePath","SaveCharacters":"SavePlayerCharacters","SaveNilInstances":"NilInstances","IgnoreArchivable":"IgnoreNotArchivable","SaveNonCreatable":"SaveNotCreatable","SaveLocalPlayer":"IsolateLocalPlayer","InstancesBlacklist":"IgnoreList","IsolatePlayerGui":"IsolateLocalPlayer","SavePlayerGui":"IsolateLocalPlayer","IgnoreDefaultProps":"IgnoreDefaultProperties"},"IgnoreSharedStrings":false,"TreatUnionsAsParts":false,"scriptcache":true,"SharedStringOverwrite":false,"AlternativeWritefile":true,"mode":"optimized","SaveCacheInterval":56320,"NotCreatableFixes":["","AdvancedDragger","AnimationTrack","Dragger","Player","PlayerGui","PlayerMouse","PlayerMouse","PlayerScripts","ScreenshotHud","StudioData","TextChatMessage","TextSource","TouchTransmitter","Translator"],"IsolatePlayers":false,"BytecodeTimeout":3,"FilePath":"Place_10959918411_Model_A-60_1786259188.txt","IgnoreDefaultProperties":true,"Anonymous":false,"IsolateStarterPlayer":false,"IsolateLocalPlayerCharacter":false,"IgnorePropertiesOfNotScriptsOnScriptsMode":false,"AvoidFileOverwrite":true,"SaveNotCreatable":false,"IsolateLocalPlayer":false,"ShutdownWhenDone":false,"AntiIdle":true,"SafeMode":true,"IgnoreProperties":[],"DecompileTimeout":10}
+
+		Elapsed time: 0.5251904583333271 Date (UTC): 9 August 2026 07:06:32 PlaceId: 10959918411 PlaceVersion: 910 Client Version: 2.729.838 Platform: IOS Executor: Delta 1.0.729.838 arm64
+]]]]></ProtectedString></Properties></Item><SharedStrings><SharedString md5="MTAwMDAwMDAwMDAwMDAwMA=="></SharedString></SharedStrings></roblox><!-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw -->
