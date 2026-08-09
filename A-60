@@ -6,8 +6,8 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyou
 
 local entity = Spawner:Create({
 	Entity = {
-		Name = "Silence",
-		Asset = "https://github.com/eliazbp92-collab/WHAT-IS-A-SOILD-OCTO-ROTRAY-PHONE-/raw/main/Place_10959918411_Model_A-60_1786314910.rbxm",
+		Name = "A-60",
+		Asset = "https://github.com/eliazbp92-collab/WHAT-IS-A-SOILD-OCTO-ROTRAY-PHONE-/raw/main/A-60.rbxm",
 		HeightOffset = -0.5
 	},
 	Lights = {
@@ -27,8 +27,8 @@ local entity = Spawner:Create({
 		Values = {5, 15, 0.1, 1}
 	},
 	Movement = {
-		Speed = 20,
-		Delay = 5, 
+		Speed = 120,
+		Delay = 10, 
 		Reversed = false
 	},
 	Rebounding = {
@@ -60,74 +60,10 @@ local entity = Spawner:Create({
 
 entity:SetCallback("OnSpawned", function()
 	print("Entity has spawned")
-local image1 = "rbxassetid://15053048364"
-local image2 = "rbxassetid://1972219024"
-local image3 = "rbxassetid://15053846557"
-local image4 = "rbxassetid://15054758787"
-local image5 = "rbxassetid://15054777575"
---if you want you can replace the image ids with your own
---you can also add more if you want
-
-while true do
-    wait(0.5)
-    
-    local i = math.random(1,5)
-    if i == 1 then
-        script.Parent.Image1.Image = image1
-    end
-    
-    if i == 2 then
-        script.Parent.Image1.Image = image2
-    end
-    
-    if i == 3 then
-        script.Parent.Image1.Image = image3
-    end
-    
-    if i == 4 then
-        script.Parent.Image1.Image = image4
-    end
-    
-    if i == 5 then
-        script.Parent.Image1.Image = image5
-    end
-end
 end)
 
 entity:SetCallback("OnStartMoving", function()
 	print("Entity has started moving")
-local image1 = "rbxassetid://15053048364"
-local image2 = "rbxassetid://1972219024"
-local image3 = "rbxassetid://15053846557"
-local image4 = "rbxassetid://15054758787"
-local image5 = "rbxassetid://15054777575"
---if you want you can replace the image ids with your own
---you can also add more if you want
-
-while true do
-    wait(0.5)
-    
-    local i = math.random(1,5)
-    if i == 1 then
-        script.Parent.Image1.Image = image1
-    end
-    
-    if i == 2 then
-        script.Parent.Image1.Image = image2
-    end
-    
-    if i == 3 then
-        script.Parent.Image1.Image = image3
-    end
-    
-    if i == 4 then
-        script.Parent.Image1.Image = image4
-    end
-    
-    if i == 5 then
-        script.Parent.Image1.Image = image5
-    end
-end
 end)
 
 entity:SetCallback("OnEnterRoom", function(room: Model, firstTime: boolean)
