@@ -30,7 +30,7 @@ local function processEntity(child)
 			local particle = attachment and attachment:WaitForChild("ParticleEmitter", 3)
 
 			if particle then
-				particle.Texture = "https://github.com/eliazbp92-collab/WHAT-IS-A-SOILD-OCTO-ROTRAY-PHONE-/raw/main/Place_10959918411_Model_Ambush_1786300962.rbxm"
+				particle.Texture = "rbxassetid://106212462451304"
 			end
 
 		elseif child.Name == "RushMoving" then
