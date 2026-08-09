@@ -235,7 +235,7 @@ entity:Run(true)
     end
 end)()
 
--- Depth Entity
+-- Silence Entity
 coroutine.wrap(function()
     while true do
         wait(math.random(290,320))
