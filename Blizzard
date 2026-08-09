@@ -7,7 +7,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyou
 local entity = Spawner:Create({
 	Entity = {
 		Name = "Blizzard",
-		Asset = "https://github.com/eliazbp92-collab/WHAT-IS-A-SOILD-OCTO-ROTRAY-PHONE-/raw/main/Place_10959918411_Model_RushMoving_1786299386.rbxm",
+		Asset = "https://github.com/eliazbp92-collab/WHAT-IS-A-SOILD-OCTO-ROTRAY-PHONE-/raw/main/Place_10959918411_Model_BlitzMoving_1786306788.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
