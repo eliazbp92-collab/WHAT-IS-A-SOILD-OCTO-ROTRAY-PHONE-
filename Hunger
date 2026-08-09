@@ -78,7 +78,7 @@ pitch2.Octave = 1
 local pitch3 = Instance.new("PitchShiftSoundEffect", cue1)
 pitch3.Octave = 1
 
-cue1.Volume = 100
+cue1.Volume = 10000
 cue1:Play()
 end)
 
