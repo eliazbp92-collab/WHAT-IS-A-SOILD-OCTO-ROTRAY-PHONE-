@@ -30,7 +30,7 @@ local entity = Spawner:Create({
 	Entity = {
 		Name = "Matcher",
 		Asset = "https://github.com/eliazbp92-collab/WHAT-IS-A-SOILD-OCTO-ROTRAY-PHONE-/raw/main/Place_10959918411_Model_RushMoving_1786299386.rbxm",
-		HeightOffset = 0.5
+		HeightOffset = -0.5
 	},
 	Lights = {
 		Flicker = {
@@ -49,7 +49,7 @@ local entity = Spawner:Create({
 		Values = {5, 15, 0.1, 1}
 	},
 	Movement = {
-		Speed = 25,
+		Speed = 125,
 		Delay = 5, 
 		Reversed = false
 	},
