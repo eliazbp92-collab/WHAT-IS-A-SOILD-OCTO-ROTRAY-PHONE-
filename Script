@@ -15,9 +15,9 @@ if initiator then
     if mainGame and mainGame:IsA("ModuleScript") then
         local mainGameModule = require(mainGame)
         if type(mainGameModule.caption) == "function" then
-            mainGameModule.caption("Hardcore Mode Remastered By Silence doors", true)
+            mainGameModule.caption("negtative Mode By Rebound", true)
             wait(4)
-            mainGameModule.caption("Credits to (OG) Hunger NEW for the rbxm/entites and more", true)
+            mainGameModule.caption("Credits to T_10006 for the A-60", true)
             wait(3)
             mainGameModule.caption("you will have fun (you won’t)", true)
         end
