@@ -238,7 +238,7 @@ end)()
 -- Silence Entity
 coroutine.wrap(function()
     while true do
-        wait(math.random(129,235))
+        wait(math.random(350,235))
         pcall(function()
            ---====== Load spawner ======---
 
@@ -445,7 +445,7 @@ end)()
 -- A-60 Entity 
 coroutine.wrap(function()
     while true do
-        wait(math.random(275,350))
+        wait(math.random(290,395))
         ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
         pcall(function()
@@ -665,7 +665,7 @@ end)()
 -- A-60 Entity
 coroutine.wrap(function()
     while true do
-        wait(math.random(200,210))
+        wait(math.random(410,500))
         pcall(function()
 
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
